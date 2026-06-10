@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "WorkMind AI — Workplace Productivity Assistant" },
       { name: "description", content: "AI workplace assistant for professionals — chat, research briefings, and smart email drafting in one dashboard." },
       { property: "og:title", content: "WorkMind AI — Workplace Productivity Assistant" },
-      { property: "og:description", content: "Automate workplace tasks with an AI chatbot, research assistant, and email generator." },
+      { property: "og:description", content: "AI workplace assistant for professionals — chat, research briefings, and smart email drafting in one dashboard." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "WorkMind AI — Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "AI workplace assistant for professionals — chat, research briefings, and smart email drafting in one dashboard." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab5c30e2-672b-40ab-bc54-b5ac211489e5/id-preview-ac529c01--0627459d-1b23-417e-913d-38dced980128.lovable.app-1781095544459.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab5c30e2-672b-40ab-bc54-b5ac211489e5/id-preview-ac529c01--0627459d-1b23-417e-913d-38dced980128.lovable.app-1781095544459.png" },
     ],
     links: [
       {
