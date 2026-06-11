@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Brain, MessageSquare, Mail, LayoutDashboard, Sparkles } from "lucide-react";
+import { Brain, MessageSquare, Mail, LayoutDashboard, Sparkles, Settings } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
@@ -8,6 +8,7 @@ const navItems = [
   { to: "/chat", label: "AI Chatbot", icon: MessageSquare },
   { to: "/research", label: "Research Assistant", icon: Brain },
   { to: "/email", label: "Email Generator", icon: Mail },
+  { to: "/settings", label: "Settings", icon: Settings },
 ] as const;
 
 export function AppShell({ children }: { children: ReactNode }) {
